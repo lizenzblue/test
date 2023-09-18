@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "test",
+    "entryPoint": "./App.js",
     "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,9 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -25,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4c995dce-ffa2-40df-98a1-155e2ec69871"
+      }
+    },
+    "owner": "lizenzblue"
   }
 }
